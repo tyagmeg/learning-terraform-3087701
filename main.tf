@@ -58,7 +58,7 @@ resource "aws_security_group_rule" "blog_evrything_out" {
   
 }
 
-resource "aws_security_group_rule" "blog_http_in" {
+resource "aws_security_group_rule" "blog_https_in" {
   
   type      = "ingress"
   from_port = 80
